@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+
+header	{
+	background-color: Gold;
+	margin-bottom: 40px;
+}
+
+.top_row {
+	background-color: Gold;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.ray, .finn, .kylo, .poe, .chewbacca, .yoda {
+	width: 300px;
+	border: 1px solid lightgrey;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 300px;
+}
+
+.content {
+	padding: 20px;
+}
+
+h3 {
+	margin: 0;
+}
+
+.content p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}

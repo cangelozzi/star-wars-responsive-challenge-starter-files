@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+.top_row::before, .top_row::after { 
+	display: table;
+	content: '';
+ }
+
+.row::before, .row::after {
+	display: table;
+	content: '';
+}
+
+.top_row::after {
+	clear: both;
+}
+
+.row::after {
+	clear: both;
+}
+
+.col-4, .col-12 {
+	float: left;
+	padding-right: 1.04166666%;
+	padding-left: 1,04166666%;
+}
+
+.col-4, .col-12 {
+	width: 100%;
+} 
+
+@media only screen and (min-width: 640px) {
+ .col-4 {
+    width: 33.33%;
+  }
+
+.col-12 {
+	width: 100%;
+	}
+}
